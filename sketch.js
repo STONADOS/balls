@@ -18,7 +18,7 @@ var gamestate =  "on sling";
 // }
 
 function setup() {
-    createCanvas(1400, 700);
+    createCanvas(displayWidth-20, disllayHeight-20);
 
     engine = Engine.create();
     world = engine.world;
@@ -31,13 +31,13 @@ function setup() {
 
     // bin3 = new Box(1095, 585, 10, 150);
 
-    // floor = new Ground(700, 690, 14000, 50);
+    // floor = new Ground(displayWi, 690, 14000, 50);
 
     mouse = new Mouse(300, 320, 50 , 50);
-    lava = new Lava(700, 670, 1400, 70);
+    lava = new Lava(displayWidth/2, 670, 1400, 70);
     invi = new invis();
-    floor = new Ground(700, 610, 1400, 35);
-    ball = new Ball(700, 350, 55);
+    floor = new Ground(displayWidth/2, 610, 1400, 35);
+    ball = new Ball(displayWidth/2, 350, 55);
     enemy1 = new enemy();
     slingshot = new SlingShot(mouse.body, ball.body);
 
