@@ -3,7 +3,7 @@ class invis{
         var options = {
             isStatic:true
         }
-        this.body = Bodies.rectangle(displayWidth/2, 618, 1400, 5, options);
+        this.body = Bodies.rectangle(600, 618, 14000, 5, options);
         this.width = 14000;
         this.height = 25;
         World.add(world, this.body);
