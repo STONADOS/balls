@@ -18,7 +18,7 @@ var gamestate =  "launched";
 // }
 
 function setup() {
-    createCanvas(displayWidth-20, displayHeight-20);
+    createCanvas(1200, 700);
 
     engine = Engine.create();
     world = engine.world;
@@ -34,10 +34,10 @@ function setup() {
     // floor = new Ground(displayWi, 690, 14000, 50);
 
     mouse = new Mouse(300, 320, 50 , 50);
-    lava = new Lava(displayWidth/2, 670, 1400, 70);
+    lava = new Lava(600, 670, 1400, 70);
     invi = new invis();
-    floor = new Ground(displayWidth/2, 610, 1400, 35);
-    ball = new Ball(displayWidth/2, 350, 55);
+    floor = new Ground(600, 610, 1400, 35);
+    ball = new Ball(600, 350, 55);
     enemy1 = new enemy();
     slingshot = new SlingShot(mouse.body, ball.body);
 
