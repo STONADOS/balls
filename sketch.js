@@ -12,7 +12,7 @@ var paperBall, floor, bin, bin2, bin3, slingshot, ball, enemy1, mouse;
 
 var num = 0
 
-var gamestate =  "on sling";
+var gamestate =  "launched";
 // function preload(){
     // back = loadImage("sprites/school.png");
 // }
