@@ -18,7 +18,7 @@ var gamestate =  "on sling";
 // }
 
 function setup() {
-    createCanvas(displayWidth-20, disllayHeight-20);
+    createCanvas(displayWidth-20, displayHeight-20);
 
     engine = Engine.create();
     world = engine.world;
