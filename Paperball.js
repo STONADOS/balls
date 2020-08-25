@@ -1,9 +1,7 @@
 class Ball{
     constructor(x, y){
-        var options = {
-            isStatic:false, 
+        var options = { 
             restitution:0.4, 
-            friction:1,
             density:1.2
         }
         var r = Math.round(50);
