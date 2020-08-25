@@ -37,7 +37,7 @@ function setup() {
     lava = new Lava(600, 670, 1400, 70);
     invi = new invis();
     floor = new Ground(600, 610, 1400, 35);
-    ball = new Ball(600, 350, 200);
+    ball = new Ball(600, 350, 20000);
     enemy1 = new enemy();
     slingshot = new SlingShot(mouse.body, ball.body);
 
